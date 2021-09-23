@@ -6,3 +6,4 @@ single_pages/__pycache__
 db.sqlite3
 single_pages/migrations
 blog/migrations
+_media/
