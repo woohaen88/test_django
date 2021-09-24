@@ -9,6 +9,12 @@
             {{ category }}
         </span>
         {% endif %}
+
+        {% if tag %}
+        <span class="badge badge-light"><i class="fas fa-tags"></i>
+            ({{ tag.post_set.count }})
+        </span>
+        {% endif %}
     </h1>
 
     {% if post_list.exists %}
