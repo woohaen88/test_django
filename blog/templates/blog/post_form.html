@@ -13,6 +13,14 @@ Create Post - Blog
     {% csrf_token %}
     <div>
         {{ form }}
+        <tr>
+            <th>
+                <label for="id_tagsstr">Tags:</label>
+            </th>
+            <td>
+                <input type="text" name="tags_str" id="id_tags_str" />
+            </td>
+        </tr>
     </div>
     <button type="submit" class="btn btn-primary float-right">Submit</button>
 </form>
